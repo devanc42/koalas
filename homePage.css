@@ -1,0 +1,163 @@
+a img {
+  border: 0 none;
+}
+
+div#mainWrapper {
+	background: none;
+}
+
+div#mainWrapper div#bodyWrapper {
+	
+min-height: 720px;
+
+}
+#contentHeader {
+	width: 545px;
+}
+
+#header .clover {
+	position: absolute;
+	top:24px;
+	left:560px;
+}
+
+div#contentBody {
+	/*
+height: 140px;
+*/
+	overflow: hidden;
+	width: 540px;
+}
+div#contentBody.tall {
+	height:100%;
+}
+div#contentBody.wide {
+	width:720px;
+}
+
+div#contentBody.white {
+	width:680px;
+	padding: 10px 20px;
+	margin: 20px 0px 30px;
+	background: #FEFEFE;
+}
+
+
+div.homeNewsItem {
+	clear: both;
+	padding-bottom: 10px;
+}
+	h3.homeNewsTitle {
+		font-size: 16px;
+		margin-bottom: 0;
+		padding: 0;
+	}
+	a.homeNewsDate {
+		font-size: .9em;
+	}
+	a.homeNewsThumb {
+		float: right;
+		margin: 5px;
+		padding: 0;
+	}
+
+#leftFeature {
+	float: left;
+	margin-right: 9px;
+	width:268px;
+	min-height: 150px;
+}
+	#leftFeature img {
+		height: 153px;
+		width: 268px;
+	}
+	#leftFeature p {
+		margin: 0;
+		padding: 0;
+	}
+	
+#rightFeature, #leftFeature {
+	margin-top: 10px;
+}
+
+#rightFeature { 
+	position: static;
+	/** position: absolute; **/
+	bottom: 0;
+	right: 0;
+}
+	#rightFeature blockquote {
+		margin: 0;
+		padding: 0 8px;
+	}
+	#rightFeature img {
+		height: 153px;
+		width: 268px;
+		margin: 0;
+		float: right;
+	}
+	
+	div#contentHeader div.clear { clear: both; }
+	
+	#rightFeature p {
+		margin: 0;
+		padding: 0;
+	}
+
+/* home page banner mask rules */
+
+#homeBannerMask { position: absolute; left: 0; top: 0px; z-index: 20; }
+	#homeBanner a img { height: 690px; width: 720px; float: left; }
+
+#leftFeatureMask, #rightFeatureMask { position: absolute; bottom: 0; }
+	#leftFeatureMask { left: 0; }
+	#rightFeatureMask { right: 0; }
+
+#homeBannerMask img:hover, #leftFeatureMask img:hover, #rightFeatureMask img:hover { cursor: pointer; }
+
+/* This line of code needs to be tested more in local dev, on multiple extension sites before committing */
+/* #contentHeader .controlBox { position: absolute; right: 15px; bottom: 72px; text-align: right; z-index: 9999; } */
+
+#contentHeader .controlBox { position: absolute; right: 15px; top: 256px; text-align: right; /*left:408px; bottom: 82px; */ z-index: 9999; }
+	#contentHeader .controlBox .controlBoxItem a {
+		background: url(../img/colors/controlBoxBtn.png) no-repeat top left;
+		color: #fff;
+		display: block;
+		float: left;
+		font-size: 1.05em;
+		font-weight: bold;
+		height: 14px;
+		line-height: 14px;
+		text-align: center;
+		text-decoration: none;
+		width: 40px;
+	}
+		#contentHeader .controlBox .controlBoxItem a:hover,
+		#contentHeader .controlBox .controlBoxItem a.activeSlide {
+			background: url(../img/colors/controlBoxBtnHover.png) no-repeat top left;
+			color: #000;
+		}
+		#contentHeader .controlBox .controlBoxItem a:active,
+		#contentHeader .controlBox .controlBoxItem a:focus {
+			/* Remove the dotted border that shows up in some browsers */
+			outline: none;
+			-moz-outline-style: none;
+		} 
+
+
+#contentHeader.inverted .controlBox {
+	top: auto;
+	bottom: 25px;
+}
+
+/* inverted option for homepage banners */
+.inverted #homeBannerMask { bottom: 0; top: auto; }
+.inverted #leftFeatureMask, .inverted #rightFeatureMask { top:0; bottom: auto; }
+.inverted #leftFeatureMask, .inverted #rightFeatureMask { top:0; bottom: auto; }
+
+
+#contentWrapper { position: relative; }
+	#contentHeader { padding: 4px 0 5px 8px; }
+
+	
+.inverted #rightFeature, .inverted #leftFeature { margin: 0 0 10px; }
