@@ -1,0 +1,138 @@
+#leftNavWrapper { 
+  float: left; width: 202px; overflow: hidden;
+}
+#leftNav,
+#leftNav .search {
+	margin-left: 15px;
+}
+	#leftNav .search input {
+		border: none 0;
+		font-size: 14px;
+		background: url("../img/search.jpg") no-repeat;
+		width: 125px;
+		line-height:16px;
+		padding: 4px 3px;
+		color: #666;
+		vertical-align: middle;
+	}
+	#leftNav .search button {
+		background: url("../img/icons/search.png") no-repeat;
+		border: 0 none;
+		height: 16px;
+		padding: 0;
+		vertical-align: middle;
+		width: 16px;
+	}
+#leftNav a {
+	color: #000;
+	display: block;
+	line-height: 20px;
+	margin-left: -20px;
+	padding-left: 20px;
+	text-decoration: none;
+}
+	#leftNav a.arrow {
+		border: none;
+		float: right;
+		margin: 0;
+		padding: 0 12px;
+	}
+	#leftNav a:active.arrow,
+	#leftNav a:focus.arrow {
+		-moz-outline-style: none;
+		outline: none;
+	}
+		#leftNav a.arrow img {
+			display: inline;
+			width: 15px;
+			height: 18px;
+		}
+	#leftNav a img {
+		border: none;
+	}
+	
+/* Hover effects */
+#leftNav ul.level1 a:hover,
+#leftNav ul.level2 a:hover {
+	background: url("../img/navs/gradient.png") repeat-y 0 0;
+}
+#leftNav ul.level1 a.arrow {
+	background: transparent;
+}
+/* /hover effects */
+
+#leftNav h2,
+#leftNav h2 a {
+	border: none;
+	color: #003966;
+	font-size: 14px;
+	margin: 0 10px 0 20px;
+	padding: 0 0 10px;
+	text-decoration: none;
+	text-transform: capitalize;
+}
+#leftNav h2 a {
+	margin-left: 0;
+	padding-bottom: 0;
+}
+#leftNav ul {
+	clear: both;
+	list-style-type: none;
+	margin: 0;
+	padding: 0 10px 20px 0;
+	width: 171px;
+}
+#leftNav ul.level1 li {
+	border-top: solid #ADADAF 1px;
+	line-height: 20px;
+	margin-left: 20px;
+}
+	#leftNav ul.level1 li.first {
+		border:none;
+	}
+#leftNav ul.level2 li {
+	margin-left: 10px;
+	padding-left: 0;
+}
+
+#leftNav ul li ul {
+	padding: 0;
+	width: auto;
+}
+
+#leftNav #homeLeftContent {
+z-index:10;
+}
+
+#leftNav #homeLeftContent a {
+	border: none;
+	display: inline;
+	margin:0;
+	padding:0;
+	width:24px;	
+	z-index:20;
+}
+#leftNav #homeLeftContent img {
+	height:24px;
+	padding: 0 10px;
+}
+
+/* Breadcrumb expansion */
+#leftNav ul.level1,
+#leftNav ul.level1 ul.level2,
+#leftNav ul.level1 ul.level2 ul.level3 {
+	font-weight: normal;
+}
+#leftNav ul.level1 li.selected,
+#leftNav ul.level1 ul.level2 li.selected,
+#leftNav ul.level1 ul.level2 ul.level3 li.selected {
+	font-weight: bold;
+}
+#leftNav ul.level1 ul.level2,
+#leftNav ul.level1 ul.level2 ul.level3 {
+	display: none;
+}
+#leftNav ul.level1 li.selected ul.level2,
+#leftNav ul.level1 ul.level2 li.selected ul.level3 {
+	display: block;
+}
