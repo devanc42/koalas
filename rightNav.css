@@ -1,0 +1,60 @@
+#rightNav a {
+  border-bottom: solid #ADADAF 1px;
+	color: #000;
+	display: block;
+	padding-bottom: 5px;
+	text-decoration: none;
+}
+#rightNavWrapper #rightNav.navWidget .main ul.rightBox {
+	list-style-type: none;
+	margin-bottom: 0;
+	padding: 0 1.65em;
+}
+#rightNav ul.level2 li:hover,
+#rightNav ul.level2 li.selected {
+	background: transparent;
+}
+#rightNav h2,
+#rightNav h2 a {
+	border: none;
+	color: #003966;
+	font-size: 14px;
+	margin: 0 0 0 20px;
+	padding: 0 0 10px;
+	text-decoration: none;
+}
+#rightNav h2 a {
+	margin-left: 0;
+	padding-bottom: 0;
+}
+#rightNav div {
+	margin-left: 0;
+}
+
+#rightNav #moreNews,
+#rightNav #moreEvents {
+	margin: 0;
+	margin-left: 20px;
+	padding: 0;
+}
+	#rightNav #moreNews a,
+	#rightNav #moreEvents a {
+		border: none;
+
+}
+#rightNav span.homeCalendarDate {
+	display: block;
+}
+
+#rightNav div.newsWidgetItem,
+#rightNav div.homeCalendarItem {
+	margin: 0 20px 0 20px;
+	padding-bottom: 5px;
+}
+
+#rightNav div.newsWidgetItem span.newsWidgetTitle,
+#rightNav div.homeCalendarItem span.homeCalendarTitle {
+	display: block;
+	font-weight: bold;
+}
+html body.expandedcontent div#mainWrapper div#main div#bodyWrapper div.middleWrap div#rightNavWrapper div#rightNav.navWidget
