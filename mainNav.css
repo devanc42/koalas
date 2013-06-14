@@ -1,0 +1,112 @@
+/* menu container */
+#mainNav {
+  background-color: #00361e;
+	height: 37px;
+	overflow: hidden;
+	width: 970px;
+	z-index: 100;
+}
+
+/* general menu list properties */
+#mainNav ul { padding: 0 14px; margin: 0; list-style: none; }
+	#mainNav ul ul { padding: 0; display: none; }
+
+/* level 1 */
+#mainNav .level1 { font-size: 14px; line-height: 37px; text-align: center; }
+	#mainNav .level1 li { float: left; background-color: #00361e; }
+		#mainNav .level1 li.last, mainNav level2 li { background: none; }
+	
+/* level 2 */
+#mainNav .level2 { font-size: 11px; line-height: 18px; text-align: left; position: absolute; width: 192px; padding-bottom: 5px; }
+#mainNav .level2, #mainNav .level3 { background: #032C44; }
+	#mainNav .level2 li { float: none; border-top:1px solid #677D8E; }
+	#mainNav .level2 li.last, #mainNav ul.level2 { padding-bottom: 0; }
+
+/* level 3 */
+#mainNav ul.level3,
+#mainNav li:hover .level3 {
+	display: none;
+}
+
+/* menu links */
+#mainNav a { display: block; text-decoration: none; color: #FFF; }
+	#mainNav .level1 a { padding: 0 14px; }
+		#mainNav .level2 a { display: block; padding: 0 20px 0 15px; }
+			#mainNav .level3 a { padding: 0 20px 0 25px; }
+	
+/* hover effects */
+#mainNav li:hover ul {
+	display: block;
+	background-color: #469B74;
+}
+#mainNav .level1 li:hover,
+#mainNav .level1 .level2 li:hover {
+	background-color: #469B74;
+}
+	#mainNav .level1 li:hover li {
+		background-color: #469B74;
+	}
+	
+/* dropdown controller */
+#mainNav .level2 a.arrow { float: right; padding: 4px 12px; }
+
+/* Colors */
+body.brown #mainNav {
+	background: url("../img/colors/menuBrown.jpg") repeat-x;
+}
+body.brown #mainNav .level1 li:hover,
+body.brown #mainNav .level1 .level2 li:hover { background: url("../img/colors/menuBrown.jpg") repeat-x 0 -39px; }
+body.brown #mainNav .level2,
+body.brown #mainNav .level3 { background: #2C2620; }
+
+body.green #mainNav {
+	background: url("../img/colors/menuSage.jpg") repeat-x;
+}
+body.green #mainNav .level1 li:hover,
+body.green #mainNav .level1 .level2 li:hover { background: url("../img/colors/menuSage.jpg") repeat-x 0 -39px; }
+body.green #mainNav .level2,
+body.green #mainNav .level3 { background: #0C2921; }
+
+body.grey #mainNav {
+	background: url("../img/colors/menuGrey.jpg") repeat-x 0 0;
+}
+body.grey #mainNav .level1 li:hover,
+body.grey #mainNav .level1 .level2 li:hover { background: url("../img/colors/menuGrey.jpg") repeat-x 0 -39px; }
+body.grey #mainNav .level2,
+body.grey #mainNav .level3 { background: #1F1F1F; }
+
+body.fourh #mainNav {
+	background: url("../img/colors/menuGreen.jpg") repeat-x 0 0;
+}
+body.fourh #mainNav .level1 li:hover,
+body.fourh #mainNav .level1 .level2 li:hover { background: url("../img/colors/menuGreen.jpg") repeat-x 0 -39px; }
+body.fourh #mainNav .level2,
+body.fourh #mainNav .level3 { background: #03351D; }
+
+body.mint #mainNav {
+	background: url("../img/colors/menuMint.jpg") repeat-x 0 0;
+}
+body.mint #mainNav a {
+	color: #231f20;
+}
+body.mint #mainNav .level1 li:hover,
+body.mint #mainNav .level1 .level2 li:hover { background: url("../img/colors/menuMint.jpg") repeat-x 0 -39px; }
+body.mint #mainNav .level2,
+body.mint #mainNav .level3 { background: #d0e0c9; }
+
+/* verity search */
+.ep_search_result{
+	margin:10px 0 20px 0;
+}
+.ep_search_score{
+	float:right;
+	color:#990000;
+}
+.ep_search_title{
+	font-size:1.1em;
+	font-weight:bold;
+}
+.ep_search_link{
+	color:#666666;
+	font-style:italic;
+}
