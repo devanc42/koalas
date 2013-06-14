@@ -1,0 +1,142 @@
+#footer {
+  clear: both;
+	font-family: "Myriad Pro", Arial, sans-serif;
+	margin:0;
+	padding:0;
+	position: relative;
+	/*top: 670px;
+	bottom:10px*/
+}
+
+#bottomNav {
+	clear: both;
+	height: 60px;
+	margin: 0;
+	padding: 0;
+}
+
+#bottomNav a img {
+	border: none 0;
+	margin: 0;
+	padding: 0;
+}
+
+#bottomNav ul {
+	list-style-type: none;
+	margin: 0 15px;
+	padding: 0;
+}
+
+#bottomNav ul li {
+	background: transparent url("../img/colors/menuBlue.jpg") repeat-x 0 0;
+	float: left;
+	height: 39px;
+	line-height: 38px;
+	margin: 0 6px;
+	padding: 0;
+	text-align: center;
+	vertical-align: middle;
+	width: 175px;
+}
+
+#bottomNav ul li:hover,
+#bottomNav ul li.selected {
+	background: transparent url("../img/colors/menuBlue.jpg") repeat-x 0 -39px;
+}
+
+
+#footerText {
+	clear: right;
+	color: #FFF;
+	text-align: center;
+	width: 970px;
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+
+#footerText span {
+	color: #000;
+	font-size: 12px;
+	margin: 0 auto;
+}
+
+#footerText ul {
+	clear: both;
+	font-size: 11px;
+	margin: 5px auto;
+	padding: 0;
+}
+
+#footerText ul li {
+	display: inline;
+	background: url('/../../../../../admin/images/bulletBlack.gif') no-repeat 0 3px;
+	padding: 0 10px 0 15px;
+}
+#footerText ul li.first {
+	background: none;
+}
+#footerText ul li a {
+	display: inline;
+}
+
+#header img,
+#rightNavWrapper {
+	float: left;
+}
+
+#footer a {
+	color: #000;
+	text-decoration: none;
+}
+#bottomNav a {
+	color: #FFF;
+	text-decoration: none;
+}
+#footer a:hover,
+#bottomNav a:hover {
+	text-decoration: underline;
+}
+
+/* Colors */
+body.brown #bottomNav ul li {
+	background: transparent url("../img/colors/menuBrown.jpg") repeat-x 0 0;
+}
+body.brown #bottomNav ul li:hover,
+body.brown #bottomNav ul li.selected {
+	background: transparent url("../img/colors/menuBrown.jpg") repeat-x 0 -39px;
+}
+
+body.green #bottomNav ul li {
+	background: transparent url("../img/colors/menuSage.jpg") repeat-x 0 0;
+}
+body.green #bottomNav ul li:hover,
+body.green #bottomNav ul li.selected {
+	background: transparent url("../img/colors/menuSage.jpg") repeat-x 0 -39px;
+}
+
+body.grey #bottomNav ul li {
+	background: transparent url("../img/colors/menuGrey.jpg") repeat-x 0 0;
+}
+body.grey #bottomNav ul li:hover,
+body.grey #bottomNav ul li.selected {
+	background: transparent url("../img/colors/menuGrey.jpg") repeat-x 0 -39px;
+}
+
+body.fourh #bottomNav ul li {
+	background: transparent url("../img/colors/menuGreen.jpg") repeat-x 0 0;
+}
+body.fourh #bottomNav ul li:hover,
+body.fourh #bottomNav ul li.selected {
+	background: transparent url("../img/colors/menuGreen.jpg") repeat-x 0 -39px;
+}
+
+body.mint #bottomNav a {
+	color: #231f20;
+}
+body.mint #bottomNav ul li {
+	background: transparent url("../img/colors/menuMint.jpg") repeat-x 0 0;
+}
+body.mint #bottomNav ul li:hover,
+body.mint #bottomNav ul li.selected {
+	background: transparent url("../img/colors/menuMint.jpg") repeat-x 0 -39px;
+}
