@@ -1,5 +1,5 @@
 html {
-  font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	font-size:12px;
 	line-height:16px;
 }
@@ -120,15 +120,23 @@ img {
 
 #contentWrapper #title{
 	font-size:x-large;
+	margin-top:5px;
+	margin-left:5px;
 	margin-bottom:20px;
 	
 }
 
 #contentWrapper #label{
 	font-size:medium;
+	margin-top:15px;
 	margin-left:20px;
 	margin-bottom:15px;
 
+}
+
+#contentWrapper #resCalendar{
+	margin-left:50px;
+	
 }
 
 #contentWrapper .inverted #homeBanner {
@@ -141,6 +149,8 @@ img {
 	margin: 0;
 	padding: 0;
 }
+
+
 /* End Content Area */
 
 /* Google Search styling */
@@ -179,8 +189,3 @@ body.bgmint div#mainWrapper div#bodyWrapper {
 }
 
 
-#plug_directory_listing div.contact ul.details li.email span.title {
-	display: none;
-}
-
-#plugContainer.ep_calendar .eventDisplay .calEventUrl a { float: left; max-width: 325px; overflow: hidden; text-overflow: ellipsis; }
