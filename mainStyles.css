@@ -93,7 +93,7 @@ img {
 
 
 #bodyWrapper {
-	/*height: 460px;*/
+	height: auto;
 	padding-top: 26px;
 	width: 970px;
 }
@@ -126,13 +126,14 @@ img {
 	
 }
 
-#contentWrapper #label{
+#contentWrapper #resSection{
 	font-size:medium;
 	margin-top:15px;
 	margin-left:20px;
 	margin-bottom:15px;
 
 }
+
 
 #contentWrapper #login {
 	font-size:medium;
@@ -269,5 +270,3 @@ form .button:active {
 	
 	box-shadow: inset 0 0 2px rgba(0,0,0, .3), 0 1px 0 white;
 }
-
-
