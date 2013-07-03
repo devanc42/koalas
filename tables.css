@@ -1,5 +1,5 @@
 #table {
-  border-collapse:collapse;
+	border-collapse:collapse;
 	border: 1px solid #00361e;
 	background-color: #ffffff;
     width: 100%;
@@ -19,7 +19,7 @@
 	
 }
 #table td {
-	line-height: 20px;
+	line-height: inherit;
 	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-size: 14px;
 	border:1px solid #00361e;
